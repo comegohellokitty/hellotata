@@ -9,7 +9,7 @@
 - [How to View](#how-to-view)
 - [Customization](#customization)
 - [License](#license)
-## Overview
+## 其他
 
 This project is a basic example of a static website. It is designed to help beginners understand the fundamentals of web development with HTML and CSS.
 
