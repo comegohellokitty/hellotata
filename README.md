@@ -1,29 +1,35 @@
-<link rel="stylesheet" 
-href="styles.css">
-# 这是我的个人网站，内容较少，还请多多包涵。
+# 欢迎来到 Tata 网
 
-这里面有我存放的一些链接，图片，和推广的一些东西，希望能帮到大家。
+此网站拥有许多不同资源。大家可以看看有没有自己想要的。
 
-## Table of Contents
-- [洛谷：学习编程的好地方](https://www.luogu.com.cn/)
-- [四级资料：这个不是我的网盘](pan.quark.cn/s/9a375a2d1ca1)
-- [大学生数学竞赛](https://github.com/comegohellokitty/hellotata/blob/main/contest.pdf)
-- [How to View](#how-to-view)
-- [Customization](#customization)
-- [License](#license)
-## 其他
+## 资源列表
 
-好吧，有些东西在审核呈现不了。
+- **计算机二级选择题** [（链接待添加）]()
+- **英语四六级** [pan.quark.cn/s/9a375a2d1ca1](https://pan.quark.cn/s/9a375a2d1ca1)
+- **洛谷：学习编程** [https://www.luogu.com.cn/](https://www.luogu.com.cn/)
+- **W3school：编程入门** [https://www.w3school.com.cn/](https://www.w3school.com.cn/)
+- **大学生数学竞赛（非数学类）** [（链接待添加）]()
+- **PDF 转换器** [（链接待添加）]()
+- **Office 三件套免费激活** [（链接待添加）]()
+- **抢票软件：免费抢票** [（链接待添加）]()
 
-## Features
+## 科学上网资源
 
-- **Header**: Contains the website title and a navigation menu.
-- **Home Section**: Introduction to the website.
-- **About Section**: Information about the purpose of the website.
-- **Gallery Section**: Includes an image that demonstrates how to embed pictures.
-- **Contact Section**: Provides a link for users to contact via email.
-- **Footer**: Displays the copyright information.
+若是你有科学上网，那么下面这些可能会让你眼前一亮：
 
-## Project Structure
+- **免费 PDF 编辑器网页版**：
+  - 亲测好用：[https://www.sejda.com](https://www.sejda.com)
+  - 一般：[https://www.pdfescape.com](https://www.pdfescape.com)
+- **ChatGPT 网页版**：[https://chatgpt.com/](https://chatgpt.com/)
 
-The project has the following structure:
+## 资源获取问题
+
+由于技术有限，还有许多资源若是没有科学上网，获取起来比较困难。比如，**大学生数学竞赛（非数学类）** 它是基于 GitHub 仓库的，我们下载起来非常缓慢，甚至有时候会中断下载。
+
+若是不想等待下载时长，可以加我 QQ（189702156）。
+
+## 支持我们
+
+看了这么多若是高兴了，能否鼓励鼓励小生我。
+
+![图片](链接待添加)
