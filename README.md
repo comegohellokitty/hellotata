@@ -5,7 +5,7 @@
 ## Table of Contents
 - [洛谷：学习编程的好地方](https://www.luogu.com.cn/)
 - [四级资料：这个不是我的网盘](pan.quark.cn/s/9a375a2d1ca1)
-- [Project Structure](#project-structure)
+- [大学生数学竞赛](https://github.com/comegohellokitty/hellotata/blob/main/contest.pdf)
 - [How to View](#how-to-view)
 - [Customization](#customization)
 - [License](#license)
