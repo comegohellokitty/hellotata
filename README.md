@@ -3,13 +3,13 @@
 This repository contains the code for a simple static website built using HTML and CSS. The website includes several sections like Home, About, Gallery, and Contact, along with an example of how to insert images into a webpage.
 
 ## Table of Contents
-- [Overview](#overview)
+- [Overview](#https://ldmdm.xetslk.com/sl/sXMh5)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [How to View](#how-to-view)
 - [Customization](#customization)
 - [License](#license)
-
+- ![Example Image](Figure_1.png)
 ## Overview
 
 This project is a basic example of a static website. It is designed to help beginners understand the fundamentals of web development with HTML and CSS.
