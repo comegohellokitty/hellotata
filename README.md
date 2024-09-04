@@ -9,7 +9,7 @@ This repository contains the code for a simple static website built using HTML a
 - [How to View](#how-to-view)
 - [Customization](#customization)
 - [License](#license)
-- ![Example Image](Figure_1.png)
+- ![Example Image](hellotata/Figure_1.png)
 ## Overview
 
 This project is a basic example of a static website. It is designed to help beginners understand the fundamentals of web development with HTML and CSS.
