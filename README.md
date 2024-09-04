@@ -1,4 +1,4 @@
-# My Simple Website
+# 这是我的个人网站，内容较少，还请多多包涵。
 
 This repository contains the code for a simple static website built using HTML and CSS. The website includes several sections like Home, About, Gallery, and Contact, along with an example of how to insert images into a webpage.
 
