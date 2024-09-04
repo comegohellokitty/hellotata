@@ -8,9 +8,9 @@
 - **英语四六级** [pan.quark.cn/s/9a375a2d1ca1](https://pan.quark.cn/s/9a375a2d1ca1)
 - **洛谷：学习编程** [https://www.luogu.com.cn/](https://www.luogu.com.cn/)
 - **W3school：编程入门** [https://www.w3school.com.cn/](https://www.w3school.com.cn/)
-- **大学生数学竞赛（非数学类）** [（github上托管文件）]()
-- **PDF 转换器** [（链接待添加）]()
-- **Office 三件套免费激活** [（链接待添加）]()
+- **大学生数学竞赛（非数学类）** [（github上托管文件）](https://github.com/comegohellokitty/hellotata/blob/6e4de33e3c09427741086b79ac82f58c59363aaa/contest.pdf)
+- **PDF 转换器** [https://tools.pdf24.org/zh/](https://tools.pdf24.org/zh/)
+- **Office 三件套免费激活** [https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click](https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click)
 - **抢票软件：免费抢票** [（链接待添加）]()
 
 ## 科学上网资源
