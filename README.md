@@ -8,7 +8,7 @@
 - **英语四六级** [pan.quark.cn/s/9a375a2d1ca1](https://pan.quark.cn/s/9a375a2d1ca1)
 - **洛谷：学习编程** [https://www.luogu.com.cn/](https://www.luogu.com.cn/)
 - **W3school：编程入门** [https://www.w3school.com.cn/](https://www.w3school.com.cn/)
-- **大学生数学竞赛（非数学类）** [（链接待添加）]()
+- **大学生数学竞赛（非数学类）** [（contest.pdf）]()
 - **PDF 转换器** [（链接待添加）]()
 - **Office 三件套免费激活** [（链接待添加）]()
 - **抢票软件：免费抢票** [（链接待添加）]()
