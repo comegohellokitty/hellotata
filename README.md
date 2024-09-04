@@ -11,7 +11,7 @@
 - [License](#license)
 ## 其他
 
-This project is a basic example of a static website. It is designed to help beginners understand the fundamentals of web development with HTML and CSS.
+服了，明明修改了，就是不更新我写好的内容。
 
 ## Features
 
