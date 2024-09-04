@@ -77,7 +77,7 @@
             <h2>Gallery</h2>
             <p>Below is an example image inserted into the page:</p >
             <!-- Insert your image here by providing the correct path to the image -->
-            < img src="my-image.jpg" alt="A beautiful view">
+            < img src="hellotata/Figure_1.png" alt="A beautiful view">
             <p>This image is an example of how to insert an image into your HTML page.</p >
         </section>
 
