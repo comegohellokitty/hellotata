@@ -5,7 +5,7 @@
 ## 资源列表
 
 - **计算机二级选择题** [（github上托管文件）](https://github.com/comegohellokitty/hellotata/blob/732bda0a1d0abbe9ff614acdeb197ae944e6edec/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7WPS%20office%E9%80%89%E6%8B%A9%E9%A2%98(1).pptx)
-- **英语四六级** [https://pan.quark.cn/s/9a375a2d1ca1](https://pan.quark.cn/s/9a375a2d1ca1)
+- **英语四六级** [(https://pan.quark.cn/s/9a375a2d1ca1)](https://pan.quark.cn/s/9a375a2d1ca1)
 - **洛谷：学习编程** [(https://www.luogu.com.cn/)](https://www.luogu.com.cn/)
 - **W3school：编程入门** [(https://www.w3school.com.cn/)](https://www.w3school.com.cn/)
 - **大学生数学竞赛（非数学类）** [（github上托管文件）](https://github.com/comegohellokitty/hellotata/blob/6e4de33e3c09427741086b79ac82f58c59363aaa/contest.pdf)
