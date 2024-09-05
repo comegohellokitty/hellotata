@@ -11,7 +11,7 @@
 - **大学生数学竞赛（非数学类）** [（github上托管文件）](https://github.com/comegohellokitty/hellotata/blob/6e4de33e3c09427741086b79ac82f58c59363aaa/contest.pdf)
 - **PDF 转换器** [(网页版)](https://tools.pdf24.org/zh/)
 - **Office 三件套免费激活** [(B站up主)](https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click)
-- **抢票软件：免费抢票** [（链接待添加）]()
+- **抢票软件：免费抢票** [（github上托管文件）](https://github.com/comegohellokitty/hellotata/tree/ab6ebfb432e05c95e9cd4c995fb90183e52c6dc7/Bypass_1.16.25/Bypass)
 - **免费 PDF 编辑器网页版**：
   - 亲测好用：[https://www.sejda.com](https://www.sejda.com)
   - 一般：[https://www.pdfescape.com](https://www.pdfescape.com)
