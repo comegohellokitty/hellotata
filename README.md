@@ -5,21 +5,20 @@
 ## 资源列表
 
 - **计算机二级选择题** [（github上托管文件）](https://github.com/comegohellokitty/hellotata/blob/732bda0a1d0abbe9ff614acdeb197ae944e6edec/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7WPS%20office%E9%80%89%E6%8B%A9%E9%A2%98(1).pptx)
-- **英语四六级** [ (https://pan.quark.cn/s/9a375a2d1ca1) ](https://pan.quark.cn/s/9a375a2d1ca1)
-- **洛谷：学习编程** [(https://www.luogu.com.cn/)](https://www.luogu.com.cn/)
-- **W3school：编程入门** [(https://www.w3school.com.cn/)](https://www.w3school.com.cn/)
+- **英语四六级** [ (夸克网盘) ](https://pan.quark.cn/s/9a375a2d1ca1)
+- **洛谷：学习编程** [(官网)](https://www.luogu.com.cn/)
+- **W3school：编程入门** [(官网)](https://www.w3school.com.cn/)
 - **大学生数学竞赛（非数学类）** [（github上托管文件）](https://github.com/comegohellokitty/hellotata/blob/6e4de33e3c09427741086b79ac82f58c59363aaa/contest.pdf)
-- **PDF 转换器** [(https://tools.pdf24.org/zh/)](https://tools.pdf24.org/zh/)
-- **Office 三件套免费激活** [(https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click)](https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click)
+- **PDF 转换器** [(网页版)](https://tools.pdf24.org/zh/)
+- **Office 三件套免费激活** [(B站up主)](https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click)
 - **抢票软件：免费抢票** [（链接待添加）]()
-
+- **免费 PDF 编辑器网页版**：
+  - 亲测好用：[https://www.sejda.com](https://www.sejda.com)
+  - 一般：[https://www.pdfescape.com](https://www.pdfescape.com)
 ## 科学上网资源
 
 若是你有科学上网，那么下面这些可能会让你眼前一亮：
 
-- **免费 PDF 编辑器网页版**：
-  - 亲测好用：[https://www.sejda.com](https://www.sejda.com)
-  - 一般：[https://www.pdfescape.com](https://www.pdfescape.com)
 - **ChatGPT 网页版**：[https://chatgpt.com/](https://chatgpt.com/)
 
 ## 资源获取问题
