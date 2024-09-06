@@ -127,14 +127,19 @@
         .search-box button:hover {
             background-color: #45a049;
         }
+
+        /* 高亮显示搜索关键词 */
+        mark {
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- 搜索工具放在顶部 -->
         <div class="search-box">
-            <input type="text" placeholder="搜索资源..." />
-            <button type="button">搜索</button>
+            <input type="text" id="search-input" placeholder="搜索资源..." />
+            <button type="button" onclick="search()">搜索</button>
         </div>
 
         <h1>欢迎来到 Tata 网</h1>
@@ -142,7 +147,7 @@
         <p>本网站不强制收费，所有此网页上的内容均可免费获取，但所提供的链接中的内容是否收费，与我无关，我并不盈利。</p>
 
         <h2>资源列表</h2>
-        <ul>
+        <ul id="content">
             <li><strong>计算机二级选择题</strong> <a href="https://github.com/comegohellokitty/hellotata/blob/732bda0a1d0abbe9ff614acdeb197ae944e6edec/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7WPS%20office%E9%80%89%E6%8B%A9%E9%A2%98(1).pptx" target="_blank">（github上托管文件）</a></li>
             <li><strong>网页翻译插件(edge)（免费）</strong> <a href="https://microsoftedge.microsoft.com/addons/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AF%91-%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6-pdf%E7%BF%BB%E8%AF%91-/amkbmndfnliijdhojkpoglbnaaahippg" target="_blank">（沉浸式翻译）</a></li>
             <li><strong>英语四六级</strong> <a href="https://pan.quark.cn/s/9a375a2d1ca1" target="_blank">（夸克网盘）</a></li>
@@ -175,7 +180,7 @@
         <p>大家不要随意传播我的收款码，虽然设置了付款金额，但是我还是怕。（🫡🫡🫡）</p>
 
         <h2>支持我们</h2>
-        <p>看了这么多若是高兴了，能否鼓励鼓励小生我。</p>
+        <p>看了这么多若是高兴了，能否鼓励鼓励小 <p>看了这么多若是高兴了，能否鼓励鼓励小生我。</p>
         <img src="链接待添加" alt="图片">
 
     </div
