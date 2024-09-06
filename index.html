@@ -6,67 +6,48 @@
     <title>简单搜索工具</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
         }
 
         .container {
             max-width: 600px;
-            margin: 40px auto;
+            margin: 0 auto;
+            background-color: #fff;
             padding: 20px;
-            background-color: #ffffff;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
             text-align: center;
             color: #333;
-            font-size: 2rem;
-            margin-bottom: 20px;
         }
 
         input[type="text"] {
             width: 100%;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-            box-sizing: border-box;
+            padding: 10px;
             margin-bottom: 20px;
-            outline: none;
-        }
-
-        input[type="text"]:focus {
-            border-color: #4CAF50;
-            box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+            border: 1px solid #ccc;
+            border-radius: 4px;
         }
 
         .result {
-            background-color: #e8f5e9;
-            padding: 12px;
-            margin: 8px 0;
+            background-color: #e7f5e9;
+            padding: 10px;
+            margin: 10px 0;
             border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .result a {
-            color: #00796b;
+            color: #3498db;
             text-decoration: none;
-            font-size: 1rem;
         }
 
         .result a:hover {
             text-decoration: underline;
-        }
-
-        .no-result {
-            text-align: center;
-            color: #757575;
-            font-size: 1rem;
-            padding: 12px;
         }
     </style>
 </head>
@@ -105,11 +86,11 @@
                 filteredData.forEach(item => {
                     const div = document.createElement('div');
                     div.classList.add('result');
-                    div.innerHTML = `<a href="${item.url}" target="_blank">${item.name}</a>`;
+                    div.innerHTML = <a href="${item.url}" target="_blank">${item.name}</a>;
                     resultsDiv.appendChild(div);
                 });
             } else {
-                resultsDiv.innerHTML = '<div class="no-result">未找到匹配的结果。</div>';
+                resultsDiv.innerHTML = '<p>未找到匹配的结果。</p>';
             }
         }
     </script>
