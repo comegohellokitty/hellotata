@@ -5,43 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>欢迎来到 Tata 网</title>
     <style>
+        /* 全局样式 */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
+            color: #333;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
 
+        /* 容器样式 */
         .container {
             max-width: 800px;
             margin: 20px auto;
-            background-color: #fff;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 标题样式 */
+        h1, h2 {
+            color: #4CAF50;
+            text-align: center;
         }
 
         h1 {
-            text-align: center;
-            color: #333;
+            font-size: 2.5rem;
         }
 
         h2 {
-            color: #3498db;
+            font-size: 1.8rem;
             margin-bottom: 10px;
         }
 
+        /* 列表样式 */
         ul {
             list-style-type: none;
-            padding-left: 0;
+            padding: 0;
         }
 
         ul li {
+            background: #e7f5e9;
             margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.1rem;
         }
 
-        a {
+        ul li a {
             color: #3498db;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* 段落和文字样式 */
+        p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        /* 图片样式 */
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 链接样式 */
+        a {
+            color: #4CAF50;
             text-decoration: none;
         }
 
@@ -49,103 +89,93 @@
             text-decoration: underline;
         }
 
-        /* 搜索框样式 */
-        #searchInput {
-            width: 100%;
-            padding: 10px;
+        /* 底部样式 */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 20px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        /* 搜索工具样式 */
+        .search-box {
+            display: flex;
+            justify-content: center;
             margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
         }
 
-        .result {
-            background-color: #e7f5e9;
+        .search-box input[type="text"] {
+            width: 60%;
             padding: 10px;
-            margin: 10px 0;
-            border-radius: 4px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
         }
 
-        .result a {
-            color: #3498db;
-            text-decoration: none;
+        .search-box button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
         }
 
-        .result a:hover {
-            text-decoration: underline;
+        .search-box button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>欢迎来到 Tata 网</h1>
+        <!-- 搜索工具放在顶部 -->
+        <div class="search-box">
+            <input type="text" placeholder="搜索资源..." />
+            <button type="button">搜索</button>
+        </div>
 
-        <p>此网站拥有许多不同资源。大家可以看看有没有自己想要的。 本网站不强制收费，所有此网页上的内容均可免费获取，但所提供的链接中的内容是否收费，与我无关，我并不盈利。</p>
+        <h1>欢迎来到 Tata 网</h1>
+        <p>此网站拥有许多不同资源。大家可以看看有没有自己想要的。</p>
+        <p>本网站不强制收费，所有此网页上的内容均可免费获取，但所提供的链接中的内容是否收费，与我无关，我并不盈利。</p>
 
         <h2>资源列表</h2>
         <ul>
-            <li><a href="https://github.com/comegohellokitty/hellotata/blob/732bda0a1d0abbe9ff614acdeb197ae944e6edec/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7WPS%20office%E9%80%89%E6%8B%A9%E9%A2%98(1).pptx" target="_blank">计算机二级选择题</a></li>
-            <li><a href="https://microsoftedge.microsoft.com/addons/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AF%91-%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6-pdf%E7%BF%BB%E8%AF%91-/amkbmndfnliijdhojkpoglbnaaahippg" target="_blank">网页翻译插件(edge)（免费）</a></li>
-            <li><a href="https://pan.quark.cn/s/9a375a2d1ca1" target="_blank">英语四六级</a></li>
-            <li><a href="https://www.luogu.com.cn/" target="_blank">洛谷：学习编程</a></li>
-            <li><a href="https://www.w3school.com.cn/" target="_blank">W3school：编程入门</a></li>
-            <li><a href="https://github.com/comegohellokitty/hellotata/blob/6e4de33e3c09427741086b79ac82f58c59363aaa/contest.pdf" target="_blank">大学生数学竞赛历年真题（非数学类）</a></li>
-            <li><a href="https://tools.pdf24.org/zh/" target="_blank">PDF 转换器</a></li>
-            <li><a href="https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click" target="_blank">Office 三件套免费激活</a></li>
-            <li><a href="https://github.com/comegohellokitty/hellotata/tree/ab6ebfb432e05c95e9cd4c995fb90183e52c6dc7/Bypass_1.16.25/Bypass" target="_blank">抢票软件：免费抢票（12306）</a></li>
+            <li><strong>计算机二级选择题</strong> <a href="https://github.com/comegohellokitty/hellotata/blob/732bda0a1d0abbe9ff614acdeb197ae944e6edec/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7WPS%20office%E9%80%89%E6%8B%A9%E9%A2%98(1).pptx" target="_blank">（github上托管文件）</a></li>
+            <li><strong>网页翻译插件(edge)（免费）</strong> <a href="https://microsoftedge.microsoft.com/addons/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AF%91-%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6-pdf%E7%BF%BB%E8%AF%91-/amkbmndfnliijdhojkpoglbnaaahippg" target="_blank">（沉浸式翻译）</a></li>
+            <li><strong>英语四六级</strong> <a href="https://pan.quark.cn/s/9a375a2d1ca1" target="_blank">（夸克网盘）</a></li>
+            <li><strong>洛谷：学习编程</strong> <a href="https://www.luogu.com.cn/" target="_blank">（官网）</a></li>
+            <li><strong>W3school：编程入门</strong> <a href="https://www.w3school.com.cn/" target="_blank">（官网）</a></li>
+            <li><strong>大学生数学竞赛历年真题（非数学类）</strong> <a href="https://github.com/comegohellokitty/hellotata/blob/6e4de33e3c09427741086b79ac82f58c59363aaa/contest.pdf" target="_blank">（github上托管文件）</a></li>
+            <li><strong>PDF 转换器</strong> <a href="https://tools.pdf24.org/zh/" target="_blank">（网页版）</a></li>
+            <li><strong>Office 三件套免费激活</strong> <a href="https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click" target="_blank">（B站up主）</a></li>
+            <li><strong>抢票软件：免费抢票（12306）</strong> <a href="https://github.com/comegohellokitty/hellotata/tree/ab6ebfb432e05c95e9cd4c995fb90183e52c6dc7/Bypass_1.16.25/Bypass" target="_blank">（github上托管文件）</a></li>
         </ul>
 
         <h2>科学上网资源</h2>
         <ul>
-            <li>亲测好用的免费 PDF 编辑器：[https://www.sejda.com](https://www.sejda.com)</li>
-            <li>一般的免费 PDF 编辑器：[https://www.pdfescape.com](https://www.pdfescape.com)</li>
-            <li><a href="https://chatgpt.com/" target="_blank">ChatGPT 网页版</a></li>
+            <li><strong>免费 PDF 编辑器网页版</strong>：
+                <ul>
+                    <li>亲测好用：<a href="https://www.sejda.com" target="_blank">https://www.sejda.com</a></li>
+                    <li>一般：<a href="https://www.pdfescape.com" target="_blank">https://www.pdfescape.com</a></li>
+                </ul>
+            </li>
+            <li><strong>ChatGPT 网页版</strong>：<a href="https://chatgpt.com/" target="_blank">https://chatgpt.com/</a></li>
         </ul>
+
+        <h2>资源获取问题</h2>
+        <p>
+            由于技术有限，还有许多资源若是没有科学上网，获取起来比较困难。比如，<strong>大学生数学竞赛（非数学类）</strong> 它是基于 GitHub 仓库的，我们下载起来非常缓慢，甚至有时候会中断下载。
+        </p>
+        <p>
+            若是不想等待下载时长，可以加我 QQ（189702156）。网站内容会持续更新，如果各位有什么需求，此网站还未能提供的。可以通过 QQ 邮件将需求发给我，我会认真对待大家的需求。
+        </p>
+        <p>大家不要随意传播我的收款码，虽然设置了付款金额，但是我还是怕。（🫡🫡🫡）</p>
 
         <h2>支持我们</h2>
         <p>看了这么多若是高兴了，能否鼓励鼓励小生我。</p>
-        <img src="链接待添加" alt="支持图片" />
+        <img src="链接待添加" alt="图片">
 
-        <!-- 搜索功能 -->
-        <h2>搜索资源</h2>
-        <input type="text" id="searchInput" placeholder="输入关键词进行搜索..." onkeyup="searchFunction()">
-        <div id="results"></div>
-    </div>
-
-    <script>
-        const data = [
-            { name: '计算机二级选择题', url: 'https://github.com/comegohellokitty/hellotata/blob/732bda0a1d0abbe9ff614acdeb197ae944e6edec/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7WPS%20office%E9%80%89%E6%8B%A9%E9%A2%98(1).pptx' },
-            { name: '英语四六级', url: 'https://pan.quark.cn/s/9a375a2d1ca1' },
-            { name: '洛谷：学习编程', url: 'https://www.luogu.com.cn/' },
-            { name: 'W3school：编程入门', url: 'https://www.w3school.com.cn/' },
-            { name: '大学生数学竞赛历年真题', url: 'https://github.com/comegohellokitty/hellotata/blob/6e4de33e3c09427741086b79ac82f58c59363aaa/contest.pdf' },
-            { name: 'PDF 转换器', url: 'https://tools.pdf24.org/zh/' },
-            { name: 'Office 三件套免费激活', url: 'https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click' },
-            { name: '抢票软件：免费抢票', url: 'https://github.com/comegohellokitty/hellotata/tree/ab6ebfb432e05c95e9cd4c995fb90183e52c6dc7/Bypass_1.16.25/Bypass' },
-            { name: '免费 PDF 编辑器（Sejda）', url: 'https://www.sejda.com' },
-            { name: '免费 PDF 编辑器（PDFescape）', url: 'https://www.pdfescape.com' },
-            { name: 'ChatGPT 网页版', url: 'https://chatgpt.com/' }
-        ];
-
-        function searchFunction() {
-            const input = document.getElementById('searchInput').value.toLowerCase();
-            const resultsDiv = document.getElementById('results');
-            resultsDiv.innerHTML = '';
-
-            if (input === '') return;
-
-            const filteredData = data.filter(item => item.name.toLowerCase().includes(input));
-
-            if (filteredData.length > 0) {
-                filteredData.forEach(item => {
-                    const div = document.createElement('div');
-                    div.classList.add('result');
-                    div.innerHTML = `<a href="${item.url}" target="_blank">${item.name}</a>`;
-                    resultsDiv.appendChild(div);
-                });
-            } else {
-                resultsDiv.innerHTML = '<p>未找到匹配的结果。</p>';
-            }
-        }
-    </script>
-</body>
-</html>
+    </div
