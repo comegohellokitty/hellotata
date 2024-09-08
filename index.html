@@ -3,110 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>欢迎来到 Tata 网</title>
+    <title>简单搜索工具</title>
     <style>
+        /* 背景样式 */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
             margin: 0;
-            padding: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
+        /* 容器样式 */
         .container {
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 600px;
+            width: 100%;
             background-color: #fff;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
+        /* 标题样式 */
         h1 {
             text-align: center;
             color: #333;
-        }
-
-        h2 {
-            color: #3498db;
-            margin-bottom: 10px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        ul li {
-            margin: 10px 0;
-        }
-
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* 搜索框样式 */
-        #searchInput {
-            width: 100%;
-            padding: 10px;
+            font-size: 2rem;
             margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
         }
 
+        /* 输入框样式 */
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+        }
+
+        /* 搜索结果样式 */
         .result {
             background-color: #e7f5e9;
-            padding: 10px;
+            padding: 15px;
             margin: 10px 0;
-            border-radius: 4px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .result:hover {
+            background-color: #d0f0da;
+            transform: translateY(-2px);
         }
 
         .result a {
             color: #3498db;
             text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
         }
 
         .result a:hover {
             text-decoration: underline;
         }
+
+        /* 没有结果时的提示 */
+        p {
+            color: #888;
+            text-align: center;
+            font-size: 1rem;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>欢迎来到 Tata 网</h1>
-
-        <p>此网站拥有许多不同资源。大家可以看看有没有自己想要的。 本网站不强制收费，所有此网页上的内容均可免费获取，但所提供的链接中的内容是否收费，与我无关，我并不盈利。</p>
-
-        <h2>资源列表</h2>
-        <ul>
-            <li><a href="https://github.com/comegohellokitty/hellotata/blob/732bda0a1d0abbe9ff614acdeb197ae944e6edec/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7WPS%20office%E9%80%89%E6%8B%A9%E9%A2%98(1).pptx" target="_blank">计算机二级选择题</a></li>
-            <li><a href="https://microsoftedge.microsoft.com/addons/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AF%91-%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6-pdf%E7%BF%BB%E8%AF%91-/amkbmndfnliijdhojkpoglbnaaahippg" target="_blank">网页翻译插件(edge)（免费）</a></li>
-            <li><a href="https://pan.quark.cn/s/9a375a2d1ca1" target="_blank">英语四六级</a></li>
-            <li><a href="https://www.luogu.com.cn/" target="_blank">洛谷：学习编程</a></li>
-            <li><a href="https://www.w3school.com.cn/" target="_blank">W3school：编程入门</a></li>
-            <li><a href="https://github.com/comegohellokitty/hellotata/blob/6e4de33e3c09427741086b79ac82f58c59363aaa/contest.pdf" target="_blank">大学生数学竞赛历年真题（非数学类）</a></li>
-            <li><a href="https://tools.pdf24.org/zh/" target="_blank">PDF 转换器</a></li>
-            <li><a href="https://www.bilibili.com/video/BV1Km421J7YF/?spm_id_from=333.337.search-card.all.click" target="_blank">Office 三件套免费激活</a></li>
-            <li><a href="https://github.com/comegohellokitty/hellotata/tree/ab6ebfb432e05c95e9cd4c995fb90183e52c6dc7/Bypass_1.16.25/Bypass" target="_blank">抢票软件：免费抢票（12306）</a></li>
-        </ul>
-
-        <h2>科学上网资源</h2>
-        <ul>
-            <li>亲测好用的免费 PDF 编辑器：[https://www.sejda.com](https://www.sejda.com)</li>
-            <li>一般的免费 PDF 编辑器：[https://www.pdfescape.com](https://www.pdfescape.com)</li>
-            <li><a href="https://chatgpt.com/" target="_blank">ChatGPT 网页版</a></li>
-        </ul>
-
-        <h2>支持我们</h2>
-        <p>看了这么多若是高兴了，能否鼓励鼓励小生我。</p>
-        <img src="链接待添加" alt="支持图片" />
-
-        <!-- 搜索功能 -->
-        <h2>搜索资源</h2>
+        <h1>搜索工具</h1>
         <input type="text" id="searchInput" placeholder="输入关键词进行搜索..." onkeyup="searchFunction()">
         <div id="results"></div>
     </div>
